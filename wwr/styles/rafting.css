@@ -99,6 +99,10 @@ header nav a, .socialmedia {
     color: var(--primary-color);
 }
 
+.hero article h2 {
+    display: none;
+}
+
 .hero article img {
     float: right;
     margin-top: 30px;
