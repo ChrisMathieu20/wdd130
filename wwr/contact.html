@@ -76,10 +76,25 @@
                 <div class="newsletter-form">
                     <h3>Newsletter</h3>
                     <form>
-                        <label for="name">Name :</label>
-                        <input type="text" name="name" id="name">
-                        <label for="mail">Email :</label>
-                        <input type="email" name="mail" id="mail">
+                        <div class="text">
+                            <label for="name">Name :</label>
+                            <input type="text" name="name" id="name">
+                            <label for="mail">Email :</label>
+                            <input type="email" name="mail" id="mail">
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="purpose" id="inquiry" value="general_inquiry"><label for="inquiry">General Inquiry</label>
+                            <input type="radio" name="purpose" id="question" value="reservation_question"><label for="question">Reservation Question</label>
+                            <input type="radio" name="purpose" id="suggestion" value="website_suggestion"><label for="suggestion">Website Suggestion</label>
+                        </div>
+                        <div class="textarea">
+                            <label for="message">Message :</label>
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="subscribe" id="subscribe">
+                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        </div>
                         <button type="submit" id="button">Sign up</button>
                     </form>
                 </div>
