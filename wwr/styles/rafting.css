@@ -111,16 +111,16 @@ header nav a, .socialmedia {
     clear: both;
 }
 
-section {
+.section {
     padding: 24px;
 }
 
-section h2 {
+.section h1 {
     margin-bottom: 40px;
     text-align: center;
 }
 
-section img {
+.section img {
     width: 200px;
 }
 
