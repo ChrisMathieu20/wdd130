@@ -249,6 +249,8 @@ header nav a, .socialmedia {
 }
 
 .map iframe {
+    width: 360px;
+    height: 200px;
     border: none;
 }
 
