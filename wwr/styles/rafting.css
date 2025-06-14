@@ -248,6 +248,10 @@ header nav a, .socialmedia {
     padding-left: 0;
 }
 
+.map iframe {
+    border: none;
+}
+
 .contact-last-section {
     background-color: var(--primary-color);
     padding: 5rem 3rem;
