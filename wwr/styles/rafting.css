@@ -40,6 +40,11 @@ header {
     /* margin-bottom: 2px; */
 }
 
+.active {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
 .logo-box img {
     height: 100px;
 }
